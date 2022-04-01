@@ -41,14 +41,14 @@ body {
     transform: translateX(40%);
     display: flex;
     flex-wrap: wrap;
-
+    row-gap: 40px;
+    column-gap: 40px;
 }
 
 .image {
     position: relative;
     height: 300px;
     border-radius: 10px;
-    margin: 12px;
     box-shadow: 2px 2px 4px lightgray;
     list-style: none;
     flex: 0 0 25%;
